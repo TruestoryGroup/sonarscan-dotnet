@@ -15,7 +15,7 @@ The current version supports .NET 6
 
 ``` yaml
     - name: SonarScanner for .NET 6 with pull request decoration support
-      uses: highbyte/sonarscan-dotnet@v2.1.4
+      uses: TruestoryGroup/sonarscan-dotnet@netcore_6
       with:
         # The key of the SonarQube project
         sonarProjectKey: your_projectkey
